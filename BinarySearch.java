@@ -14,6 +14,7 @@ public class BinarySearch{
     else{
       System.out.println(ans+" is the position of the element");
     }
+    
   }
   public static int Search(int a[],int k)
   {

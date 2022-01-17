@@ -1,1 +1,2 @@
-a
+
+            if(a[mid]== key)
