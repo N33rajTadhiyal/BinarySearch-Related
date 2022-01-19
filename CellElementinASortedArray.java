@@ -1,7 +1,7 @@
 public class CellElementinASortedArray {
     public static void main(String[] args) {
         int a[]={0,2,3,4,5,6,7,9};
-        int k=5;
+        int k=8;
         int ans =Search(a, k);
         if(ans!=-1)
         {
@@ -22,11 +22,7 @@ public class CellElementinASortedArray {
             {
                 return mid;
             }
-            if(a[mid]>k)
-            {
-                res= mid;
-                h=mid-1;
-            }
+
             if(k>a[mid])
             {
                 
@@ -34,6 +30,7 @@ public class CellElementinASortedArray {
             }
             if(k<a[mid])
             {
+                res= mid;
                 h=mid-1;
             }
         }
