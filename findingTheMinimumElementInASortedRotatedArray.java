@@ -1,6 +1,6 @@
 class findingTheMinimumElementInASortedRotatedArray{
     public static void main(String[] args) {
-        int a[]={5,6,7,8,1,2,3,4};
+        int a[]={4,5,6,7,1,2,3};
 
         System.out.println(Search(a)+" : is the position of the smallest element in the array");
 
@@ -23,7 +23,7 @@ class findingTheMinimumElementInASortedRotatedArray{
             {
                 l=mid+1;
             }
-            else if(a[mid]<a[l]){
+            else if(a[mid]>a[l]){
 
                 h=mid-1;
             }            
