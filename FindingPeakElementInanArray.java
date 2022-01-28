@@ -8,8 +8,7 @@ public class FindingPeakElementInanArray {
         }
         else{
             System.out.println("it there is no peek element");
-        }
-       
+        }     
 
 
     }

@@ -1,5 +1,6 @@
 public class FindAnElementinBitonicArray {
     public static void main(String[] args) {
+        
         int a[]={1,3,5,7,8,9,10,6,4,2};
         int k=3;
         int ans=PeakSearch(a);
@@ -17,9 +18,6 @@ public class FindAnElementinBitonicArray {
         {
             System.out.println("key is not present");
         }
-
-
-
     }
     public static int PeakSearch(int a[])
     {
