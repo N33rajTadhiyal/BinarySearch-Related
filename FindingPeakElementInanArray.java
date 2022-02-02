@@ -1,6 +1,6 @@
 public class FindingPeakElementInanArray {
     public static void main(String[] args) {
-        int a[]={1,4,7,8,9,11,13,1,2};
+        int a[]={9 ,14 ,10 ,10 ,1, 2, 1, 7 ,10, 10 ,14, 19, 9};
         int ind = Search(a);
         if(ind!=-1){
             System.out.println(a[ind]+" is the peak element");

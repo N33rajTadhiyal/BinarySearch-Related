@@ -7,8 +7,8 @@ public class RotatedSortArray {
         int a[]={2,3,4,5,6,1};
         int n =Search(a);
         int rotated = a.length-n;
-        System.out.println(rotated+": times the array have been rotated anti clockwise");
-        System.out.println(n+" :times have been rotated clockwise");
+        int as=Search(a);
+        System.out.println(a[as]);
         
     }
     public static int Search(int a[])
